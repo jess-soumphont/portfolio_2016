@@ -3,6 +3,7 @@ html{
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
+	color: #333333;
 }
 body{
 	margin: 0;
@@ -38,7 +39,6 @@ white: f2f2f2;
 #top h1, h2, h3{
 	text-align: center;
 	text-transform: uppercase;
-	color: #333333;
 }
 #top h2, h3{
 	margin: 0;
@@ -66,10 +66,41 @@ white: f2f2f2;
 	flex-flow:row-wrap;
 	justify-content: space-around
 }
+#portfolio{
+	margin: 10px;
+	margin-bottom: 200px;
+}
+#portfolio h1{
+	margin: 80px 0 60px 15%;
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#portfolio-parent{
+	display: flex;
+	justify-content:center;
+	flex-flow: row wrap;
+}
 
+figure{
+	width: 250px;
+	border: 1px solid grey;
+}
+figcaption{
+	padding: 5px;
+	text-align: center;
+}
+figcaption div{
+	float: left;
+	border: 1px solid orange;
+	width: 118px;
+}
 
-
-
+.portfolio-img{
+	width: 250px;
+	height: 200px;
+	border: 1px solid red;
+}
 
 
 
