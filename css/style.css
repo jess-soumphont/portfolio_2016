@@ -175,6 +175,9 @@ figcaption a:hover{
 	font-weight: bold;
 	text-decoration: none;
 }
+#bio a:hover{
+	color: #333333;
+}
 #about h2{
 	font-size: 120px;
 	margin-right: 20px;
@@ -190,6 +193,7 @@ figcaption a:hover{
 	float: left;
 	margin-left: 20px;
 	margin-top: 80px;
+	z-index: 2;
 }
 #about h3 a:hover{
 	color: #f2f2f2;
