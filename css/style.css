@@ -23,6 +23,8 @@ white: f2f2f2;
  */
 #wrapper{
 	margin-top: 0;
+/*	width: 1200px;
+	margin: 0 auto;*/
 }
 #top-bottom{
 	width: 100%;
@@ -105,16 +107,18 @@ figcaption div{
 
 #about-bottom{
 	width: 100%;
-	height: 750px;
+	height: 100%;
 	background-color: #ecf0f1;
 	display: flex;
 	justify-content:center;
 }
 #about{
 	width: 96%;
-	height: 700px;
+	height: 100%;
 	background-color: #3498db;
 	margin-top: 25px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 #about-flex{
 	display: flex;
@@ -122,13 +126,13 @@ figcaption div{
 	justify-content: space-around;
 }
 #bio{
-	width: 40%;
+	width: 350px;
 	margin-top: 50px;
 }
 #profile-img{
 	width: 40%;
 	height: 300px;
-	border: 1px solid orange;
+	display: block;
 }
 #bio h3{
 	font-size: 80px;
@@ -139,12 +143,19 @@ figcaption div{
 #bio p{
 	color: #f2f2f2;
 	margin-top: 0;
+	letter-spacing: 1px;
+}
+#bio a{
+	color: #f2f2f2;
+	font-weight: bold;
+	text-decoration: none;
 }
 #about h2{
 	font-size: 120px;
 	margin-right: 20px;
 	line-height: 90px;
 	margin-bottom: 0;
+	margin-left: 20px;
 	font-weight: 900;
 }
 #about h3 a{
@@ -168,3 +179,92 @@ figcaption div{
 	text-align: left;
 }
 
+/* mobile queries */
+@media only screen  and (max-width : 1300px) {
+	#bio{
+	font-size: 16px;
+	}
+	#about h3 a{
+	font-size: 35px;
+	float: left;
+	margin: 20px 0 10px 20px;
+	}
+	#about h2{
+	font-size: 90px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	}
+	.last{
+		margin-top: 20px;
+	}
+	.first{
+		margin-bottom: 40px;
+	}
+
+}
+
+@media only screen  and (max-width : 960px) {
+	#bio{
+		font-size: 14px;
+	}
+	#about h3 a{
+	font-size: 20px;
+	float: left;
+	margin: 20px 0 10px 20px;
+	}
+	#about h2{
+	font-size: 60px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	}
+	.last{
+		margin-top: 20px;
+	}
+	.first{
+		margin-bottom: 40px;
+	}
+}
+
+@media only screen  and (max-width : 640px) {
+	#top h1{
+	margin-top: 20vh;
+	font-size: 100px;
+	line-height: 80px;	
+	}
+	#top h2{
+		color: #f2f2f2;
+		font-size: 30px;
+		line-height: 18px;
+	}
+	#top h3{
+		font-size: 18px;
+	}
+
+	#bio{
+		width: 250px;
+		font-size: 14px;
+	}
+	#profile-img{
+		display: none;
+	}
+	#about h3 a{
+	font-size: 20px;
+	float: left;
+	margin: 20px 0 10px 20px;
+}
+	#about h2{
+	font-size: 30px;
+	line-height: 10px;
+	margin-bottom: 10px;
+	}
+	.last{
+		margin-top: 20px;
+	}
+	.first{
+		margin-bottom: 40px;
+	}
+@media only screen  and (max-width : 400px) {
+	#portfolio h1{
+		font-size: 40px;
+	}
+}
