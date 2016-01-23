@@ -156,9 +156,15 @@ figcaption a:hover{
 	margin-top: 50px;
 }
 #profile-img{
-	width: 40%;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#profile-img img{
+	border: 5px solid #f2f2f2;
+	border-radius: 50%;
 }
 #bio h3{
 	font-size: 80px;
@@ -277,7 +283,12 @@ figcaption a:hover{
 		font-size: 14px;
 	}
 	#profile-img{
-		display: none;
+		width: 300px;
+		height: 300px;
+	}
+	#profile-img img{
+		width: 300px;
+		height: 300px;
 	}
 	#about h3 a{
 	font-size: 20px;
