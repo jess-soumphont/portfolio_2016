@@ -87,10 +87,11 @@ white: f2f2f2;
 	margin-bottom: 200px;
 }
 #portfolio h1{
-	margin: 100px 0 60px 15%;
+	margin: 100px 0 60px 0;
 	font-size: 50px;
 	font-weight: 900;
 	text-transform: uppercase;
+	text-align: center;
 }
 #portfolio-parent{
 	display: flex;
@@ -99,7 +100,7 @@ white: f2f2f2;
 }
 
 figure{
-	width: 275px;
+	width: 300px;
 	height: 100%;
 	border: 1px solid #ecf0f1;
 	box-shadow: 5px 5px 5px #ccc;
@@ -127,8 +128,8 @@ figcaption a:hover{
 	color:#3498db;
 }
 .portfolio-img{
-	width: 275px;
-	height: 200px;
+	width: 300px;
+	height: auto;
 }
 #about-bottom{
 	width: 100%;
